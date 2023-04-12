@@ -3,13 +3,18 @@
     color: black;
 }
 
+body{
+    background: linear-gradient(0deg, rgb(232, 79, 252), rgb(249, 181, 255), rgb(251, 211, 255));
+}
+
 header{
-    background-color: rgb(137, 243, 202);
+    /* background-color: rgb(137, 243, 202); */
     /* text-align: center; */
     padding: 1%;
 }
 
 header h1{
+    font-size: 50px;
     text-align: center;
 }
 
@@ -35,10 +40,39 @@ ul{
 
 a{
     text-decoration: none;
+    font-size: x-large;
+}
+
+.headings{
+    font-size: 30px;
+}
+
+.firstProject{
+    /* background-color: aliceblue; */
+}
+
+.firstProject h3{
+    text-align: center;
+    font-size: x-large;
+}
+
+.firstProject article{
+    border: 1px solid pink;
+    border-radius: 10px;
+    /* padding: 0%; */
+    /* width: 300px; */
+    /* background-color: rgb(176, 250, 222); */
+}
+
+.firstProject img{
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+    margin: 5%;
 }
 
 .project{
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -49,7 +83,7 @@ a{
     border-radius: 10px;
     /* padding: 0%; */
     /* width: 300px; */
-    background-color: rgb(176, 250, 222);
+    /* background-color: rgb(176, 250, 222); */
     
 }
 
@@ -57,8 +91,9 @@ a{
     text-align: center;
 }
 
-img{
+.project img{
     width: 250px;
+    height: 166px;
     /* padding: 10%; */
     /* border: 1px solid pink; */
     border-radius: 10px;
