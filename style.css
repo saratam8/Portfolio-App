@@ -1,4 +1,8 @@
-*{
+#profileImg{
+    width: 300px;
+}
+
+/* *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
 }
@@ -25,8 +29,13 @@ header h1{
     text-align: center;
 }
 
-header section img{
+/* header section img{
     width: 10%;
+} */
+
+/* #profileImage{
+    overflow: hidden;
+    size: auto;
 }
 
 nav {
@@ -44,7 +53,7 @@ ul{
 }
 
 main img:hover{
-    transform: scale(1.1);
+    transform: scale(1.02);
 }
 
 a{
@@ -122,4 +131,4 @@ footer{
     body{
         background: linear-gradient(0deg, rgb(252, 79, 79), rgb(255, 111, 111), rgb(255, 150, 150));
     }
-}
+}  */

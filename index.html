@@ -6,17 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sara's Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
 </head>
 <body>
     <header>
-        <h1>
-            Sara Tam
-            <section>
-                <img src="./images/IMG_20230215_000842_165_2.jpg" alt="Profile Picture">
-            </section>
-        </h1>
         <nav>
-            <ul class="header nav ul">
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo">Sara Tam</a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li>
                     <a href="#About Me">About Me</a>
                 </li>
@@ -26,68 +28,148 @@
                 <li>
                     <a href="#Contact">Contact</a>
                 </li>
-            </ul>
-        </nav>
+              </ul>
+            </div>
+          </nav>
     </header>
     <main>
-        <h2 id="About Me" class="headings">About Me</h2>
-        <section>
-            <p>
-                I graduated from University of Illinois at Chicago in May 2020 with a Bachelor's of Science in Electrical Engineering. I am currently an Electronics Engineer at Northrop Grumman and looking for a career change. 
-            </p> 
-            <p>
-                I am currently enrolled in the Northwestern coding bootcamp for full-stack development using Javascript, HTML and CSS. Here is my portfolio of projects.
-            </p>  
-        </section>
-        <h2 id="Projects" class="headings">Projects</h2>
-        <section class="firstProject">
-            <article>
-                <h3>Project 1</h3>
-                <a href="https://github.com/saratam8"><img src="./images/flower.jpg" alt="Placeholder Project 1"></a>
-            </article>
-        </section>
-        <section class="project">
-            <article>
-                <h3>Project 2</h3>
-                <a href="https://github.com/saratam8"><img src="./images/path.jpg" alt="Placeholder Project 2"></a>
-            </article>
-            <article>   
-                <h3>Project 3</h3>
-                <a href="https://github.com/saratam8"><img src="./images/trees.jpg" alt="Placeholder Project 3"></a>
-            </article>
-            <article>
-                <h3>Project 4</h3>
-                <a href="https://github.com/saratam8"><img src="./images/aurora.jpg" alt="Placeholder Project 4"></a>
-            </article>
-            <article>    
-                <h3>Project 5</h3>
-                <a href="https://github.com/saratam8"><img src="./images/mountain.jpg" alt="Placeholder Project 5"></a>
-            </article>
-            <article>   
-                <h3>Project 6</h3>
-                <a href="https://github.com/saratam8"><img src="./images/forest.jpg" alt="Placeholder Project 6"></a>
-            </article> 
-        </section>
-        
+        <body class="#ffebee red lighten-5">
+            <section class="row center-align">
+                <h2 id="About Me" class="headings center-align">About Me</h2>
+                <img class="circle" id="profileImg" src="./images/IMG_20230215_000842_165_2.jpg" alt="Profile Picture">
+                
+                <section>
+                    <p>
+                        I graduated from University of Illinois at Chicago in May 2020 with a Bachelor's of Science in Electrical Engineering. I am currently an Electronics Engineer at Northrop Grumman and looking for a career change. 
+                    </p> 
+                    <p>
+                        I am currently enrolled in the Northwestern coding bootcamp for full-stack development using Javascript, HTML and CSS. Here is my portfolio of projects.
+                    </p>  
+                </section>
+            </section>
+
+            <section class="firstProject row ">
+                <h2 id="Projects" class="headings center-align">Projects</h2>
+                <div class="row">
+                    <div class="col s12 l6 offset-l3">
+                    <div class="card large">
+                        <div class="card-image">
+                            <a href="https://project01team03.github.io/Zen4You/index.html" target="_blank"><img src="./images/Zen4You.png"></a>
+                        <!-- <span class="card-title">Zen4You</span> -->
+                        </div>
+                        <div class="card-content">
+                        <p>Group project with teammates from Northwestern Bootcamp to create a motivational poster generator.</p>
+                        </div>
+                        <div class="card-action">
+                        <a href="https://project01team03.github.io/Zen4You/index.html" target="_blank">Zen4You</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <section class="project row">
+                <div class="row">
+                    <div class="col s6 l2  offset-l1">
+                        <div class="card medium">
+                            <div class="card-image">
+                                <a href="https://saratam8.github.io/Weather-Dashboard-Application/" target="_blank"><img src="./images/Weather Dashboard.png"></a>
+                            <!-- <span class="card-title">Weather Dashboard</span> -->
+                            </div>
+                            <div class="card-content">
+                            <p>Application to display current weather and 5-day forecast of a city in the USA</p>
+                            </div>
+                            <div class="card-action">
+                            <a href="https://saratam8.github.io/Weather-Dashboard-Application/" target="_blank">Weather Dashboard</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s6 l2">
+                        <div class="card medium">
+                            <div class="card-image">
+                                <a href="https://saratam8.github.io/Password-Generator/" target="_blank"><img src="./images/Password Generator.png" alt="Password Generator"></a>
+                            <!-- <span class="card-title">Card Title</span> -->
+                            </div>
+                            <div class="card-content">
+                            <p>A random password generator</p>
+                            </div>
+                            <div class="card-action">
+                            <a href="https://saratam8.github.io/Password-Generator/" target="_blank">Password Generator</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s6 l2">
+                        <div class="card medium">
+                        <div class="card-image">
+                            <a href="https://saratam8.github.io/Coding-Quiz/" target="_blank"><img src="./images/Coding Quiz.png" alt="Coding Quiz"></a>
+                            <!-- <span class="card-title">Card Title</span> -->
+                        </div>
+                        <div class="card-content">
+                            <p>A coding Quiz</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://saratam8.github.io/Coding-Quiz/" target="_blank">Coding Quiz</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col s6 l2">
+                        <div class="card medium">
+                        <div class="card-image">
+                            <a href="https://saratam8.github.io/Work-Day-Planner/" target="_blank"><img src="./images/Work Day Planner.png" alt="Work Day Planner"></a>
+                            <!-- <span class="card-title">Card Title</span> -->
+                        </div>
+                        <div class="card-content">
+                            <p>A work day planner</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://saratam8.github.io/Coding-Quiz/" target="_blank">Work Day Planner</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col s6 l2">
+                        <div class="card medium">
+                        <div class="card-image">
+                            <a href="https://github.com/saratam8" target="_blank"><img src="./images/flower.jpg" alt="Placeholder Project 6"></a>
+                            <!-- <span class="card-title">Card Title</span> -->
+                        </div>
+                        <div class="card-content">
+                            <p>Placeholder</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://github.com/saratam8" target="_blank">Placeholder</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </body>
     </main>
-    <footer>
-        <h4 id="Contact" class="headings">Contact</h4>
-        <nav>
-            <ul>
+    <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text" id="Contact">Contact</h5>
+                <ul>
+                    <li>
+                        <a class="black-text" href="tel:+13127149100">Phone Number</a>
+                    </li>
+                    <li>
+                        <a class="black-text" href="mailto:stam296@gmail.com">Email</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Links</h5>
+              <ul>
                 <li>
-                    <a href="tel:+13127149100">Phone Number</a>
+                    <a class="black-text" href="https://github.com/saratam8">GitHub</a>
                 </li>
                 <li>
-                    <a href="mailto:stam296@gmail.com">Email</a>
+                    <a class="black-text" href="https://www.linkedin.com/in/sara-tam3/">LinkedIn</a>
                 </li>
-                <li>
-                    <a href="https://github.com/saratam8">GitHub</a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/sara-tam3/">LinkedIn</a>
-                </li>
-            </ul>
-        </nav>
-    </footer>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
 </body>
 </html>
